@@ -1,0 +1,18 @@
+.orders-heading{
+    font-family: 'Roboto';
+    font-size:30px;
+    text-align:center;
+    padding:10px;
+    font-weight:bold;
+}
+.ordered-list-container{
+    margin:0px;
+    padding:0px;
+    list-style-type: none;
+}
+.order-item{
+    font-family: 'Roboto';
+    font-size:15px;
+    padding:10px;
+    text-align: center;
+}
