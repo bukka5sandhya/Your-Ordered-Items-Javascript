@@ -16,7 +16,7 @@ let orderedListContainerEle = document.getElementById('orderedListContainer');
 
 function onDeleteItem(itemId){
     let deleteEle = document.getElementById(itemId);
-    orderedListContainerEle.appendChild(deleteEle);
+    orderedListContainerEle.removeChild(deleteEle);
 }
 function createAndAppend(item){
     let itemId = "item"+item.uniqueNo;
